@@ -1,0 +1,2428 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xe99134135E9A6607cdc40e18A3cD94238E917080",
+    "txHash": "0xb3846e8008bdd866a6da586dbe41aa319a18b0310395855b0ba11fa0d075ca11"
+  },
+  "proxies": [
+    {
+      "address": "0x7D3258C5F0ef16598458c99B8aF2154e74aEb5b0",
+      "txHash": "0x500538c3c7d2d6791802453805d461e695ea7a74757f66154f03a0154f2e98ff",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x57c88ed53d53fDc6B41D57463E6C405dE162843e",
+      "txHash": "0x6c84daf2001eaabef6a96719363c02d9f32c49f3da6feb3c88c05ca7e53689c9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x550fB01B6022fc986390f9a10278383F63d1b208",
+      "txHash": "0xee9db8f8afe04a4d560db06454bcce54d7cc97137dda280d74e818824235a0f9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x100838b967DB5d714d5c0F2297e3D03bB62974C9",
+      "txHash": "0x624fff1a4fca6a5df7864cf1acf129d9a646a8fbf3a93afcffc933a5d4191ad6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xB5ff179A82CEB9d9cF4e5B6416b3C714900E7Db2",
+      "txHash": "0x3bf5506590df4e6fe113119b1f704720f3d44c7a8d66e79338c7324110e5b1ba",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1842eD4B402B10c4D06556A38C7E1F2fB136aD1C",
+      "txHash": "0xeb812abb9189a1c8d71a98bbba0ebdd4094a1049d540d1aa9900e4f36b574cd1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xB35ef2E47Bffd03Ae197F48080afA752183e4F85",
+      "txHash": "0xea9b7ed6ac2dba8cba919d25a5a7f13326d9bb00e6833efb9e138da02a31b327",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb2658d357329B38C9b98A527FE2521B93b9E2bFD",
+      "txHash": "0xb04ee4d31883eb64d550c4d88d169dc48dd595cec6dec276e2fd9e99216b1f57",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc85a0d0169987022A850dB8124dF50465887Ed49",
+      "txHash": "0xdfea2eedce619a242b1ebaa81880fb365e547978cd87f6f998b848d19edcc8eb",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6d53ce83faC6a9CCc98Dda785415b38ad62fd89a",
+      "txHash": "0x82afb3cf657b634736c1f28cedadffc8cc191abe0f05cc9ba2b06fd0e77b2d48",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x29AFD54b5eA6eF0C46fB168cB569106116B13F69",
+      "txHash": "0xfec8fd6a448f5dfb26f28369f4e2933d666319c0a9a4519ef2b7ea7161aebc31",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd5C42DDc7fa6F2A6D7eB147e4e483734A18dE0D0",
+      "txHash": "0xeba27c02948e3e7df864d289386e48414040cad448bdc79d6d4e026371606f5e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6EaD4759313bAce0F9Eca19CE057F8dE95B66872",
+      "txHash": "0x8362e3689a28747fe64d762d51605ad2b244733dd136b6b6fd14005ef3250700",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xE1219F45ef7726264EEa1086A7a421EdCC803e9F",
+      "txHash": "0xda117b20c82086015972002995b9915b2ddb68a792c6ac1960ecdc9bc5bffd8a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xC30021172B81689cddA86c130e0fF8897fB3aaEB",
+      "txHash": "0xa9522c7d8b74aec334259cab998df8f39dba9162739a6e07db9be724992299ef",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x27744CB65324584EF91c96A85Db9d1c60C1d69A2",
+      "txHash": "0xd4d3f81165257664f7e037e937403148dadf07c08ec10b83be7199ae327f1c81",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "e698d80142a0eef107d2ab7e974ad03ad49e74517fa441695fe3df02942306ff": {
+      "address": "0xBe2e8B4815f3af6c2B3C037ab23C2e39d5d4c4FB",
+      "txHash": "0xabb9a623ffcd1a9a2b0beef3e0a7ecc637c572c5caf5a0ac08fadaac0bd14026",
+      "layout": {
+        "storage": [
+          {
+            "label": "initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:21"
+          },
+          {
+            "label": "initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:26"
+          },
+          {
+            "label": "______gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:61"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "Ownable",
+            "src": "contracts\\BULL.sol:47"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20",
+            "src": "contracts\\BULL.sol:611"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20",
+            "src": "contracts\\BULL.sol:613"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_uint256",
+            "contract": "ERC20",
+            "src": "contracts\\BULL.sol:615"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20",
+            "src": "contracts\\BULL.sol:617"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_string_storage",
+            "contract": "ERC20",
+            "src": "contracts\\BULL.sol:618"
+          },
+          {
+            "label": "_decimals",
+            "offset": 0,
+            "slot": "57",
+            "type": "t_uint8",
+            "contract": "ERC20",
+            "src": "contracts\\BULL.sol:619"
+          },
+          {
+            "label": "_delegates",
+            "offset": 0,
+            "slot": "58",
+            "type": "t_mapping(t_address,t_address)",
+            "contract": "BullToken",
+            "src": "contracts\\BULL.sol:954"
+          },
+          {
+            "label": "checkpoints",
+            "offset": 0,
+            "slot": "59",
+            "type": "t_mapping(t_address,t_mapping(t_uint32,t_struct(Checkpoint)1362_storage))",
+            "contract": "BullToken",
+            "src": "contracts\\BULL.sol:963"
+          },
+          {
+            "label": "numCheckpoints",
+            "offset": 0,
+            "slot": "60",
+            "type": "t_mapping(t_address,t_uint32)",
+            "contract": "BullToken",
+            "src": "contracts\\BULL.sol:966"
+          },
+          {
+            "label": "nonces",
+            "offset": 0,
+            "slot": "61",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "BullToken",
+            "src": "contracts\\BULL.sol:979"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_uint32,t_struct(Checkpoint)1362_storage))": {
+            "label": "mapping(address => mapping(uint32 => struct BullToken.Checkpoint))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint32)": {
+            "label": "mapping(address => uint32)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint32,t_struct(Checkpoint)1362_storage)": {
+            "label": "mapping(uint32 => struct BullToken.Checkpoint)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Checkpoint)1362_storage": {
+            "label": "struct BullToken.Checkpoint",
+            "members": [
+              {
+                "label": "fromBlock",
+                "type": "t_uint32",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "votes",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint32": {
+            "label": "uint32",
+            "numberOfBytes": "4"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "809b989a364f7188930d5c6f8f65728bc4ad28760718e2178501fdb556adb3e8": {
+      "address": "0x808Eda93F6B6AB4F5d2A0CcD529633D8385eD75c",
+      "txHash": "0x861c03506432042fa8e6a27ab7a2e632ce11af94c478ff4e08bc48dd5a7a6dae",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "contracts\\GOLD.sol:325",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "contracts\\GOLD.sol:330"
+          },
+          {
+            "label": "_owner",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Ownable",
+            "src": "contracts\\GOLD.sol:577"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20",
+            "src": "contracts\\GOLD.sol:866"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20",
+            "src": "contracts\\GOLD.sol:868"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "ERC20",
+            "src": "contracts\\GOLD.sol:870"
+          },
+          {
+            "label": "totalSupplyLimit",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "ERC20",
+            "src": "contracts\\GOLD.sol:871"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_string_storage",
+            "contract": "ERC20",
+            "src": "contracts\\GOLD.sol:873"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_string_storage",
+            "contract": "ERC20",
+            "src": "contracts\\GOLD.sol:874"
+          },
+          {
+            "label": "_decimals",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_uint8",
+            "contract": "ERC20",
+            "src": "contracts\\GOLD.sol:875"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "7f969f0f896eb225ee9e7ec3f693af866d1219e1eb3cd0bd2c4af2fc38ccb627": {
+      "address": "0xd1150f5E8ee6B35D7921bdF44b19e48587E2f507",
+      "txHash": "0x03aeb924a82b757f9979a1ec3e3e90d7bcb60aec71339be32566405c0918bc20",
+      "layout": {
+        "storage": [
+          {
+            "label": "initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:21"
+          },
+          {
+            "label": "initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:26"
+          },
+          {
+            "label": "______gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:61"
+          },
+          {
+            "label": "feeTo",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "BullFactory",
+            "src": "contracts\\Factory.sol:747"
+          },
+          {
+            "label": "feeToSetter",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_address",
+            "contract": "BullFactory",
+            "src": "contracts\\Factory.sol:748"
+          },
+          {
+            "label": "getPair",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_address))",
+            "contract": "BullFactory",
+            "src": "contracts\\Factory.sol:750"
+          },
+          {
+            "label": "allPairs",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "BullFactory",
+            "src": "contracts\\Factory.sol:751"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_address))": {
+            "label": "mapping(address => mapping(address => address))",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "1dbeafecd09ca0fdddb4832056e881bdda5475946009799dfd2a5ca5a7ebdf0e": {
+      "address": "0x1771946C9A7625E2416f41FA5522960ad8dF6fCE",
+      "txHash": "0x92d4f508b2efeccbeca6c0e9f4b1de08523a05fcc85184bbb97e3ddffa6b74bd",
+      "layout": {
+        "storage": [
+          {
+            "label": "initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:21"
+          },
+          {
+            "label": "initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:26"
+          },
+          {
+            "label": "______gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:61"
+          },
+          {
+            "label": "factory",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "BullRouter",
+            "src": "contracts\\Router.sol:644"
+          },
+          {
+            "label": "WETH",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_address",
+            "contract": "BullRouter",
+            "src": "contracts\\Router.sol:645"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "e52d0e37a9984a52a2a4b6f74f605f01c0a3ae727e2d11e6301af5143a6b8803": {
+      "address": "0x4bff131408C2018a992B01c9C2C59B41488EF3d6",
+      "txHash": "0xd7f36e84b077eb0edc6545eefda3f7983ca63e0b4e866f6f60a8a8c91f4ec46d",
+      "layout": {
+        "storage": [
+          {
+            "label": "initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:21"
+          },
+          {
+            "label": "initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:26"
+          },
+          {
+            "label": "______gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:61"
+          },
+          {
+            "label": "factory",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "MergeRouter",
+            "src": "contracts\\MergeRouter.sol:618"
+          },
+          {
+            "label": "bullionfxRouter",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_address",
+            "contract": "MergeRouter",
+            "src": "contracts\\MergeRouter.sol:619"
+          },
+          {
+            "label": "sushiswapRouter",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_address",
+            "contract": "MergeRouter",
+            "src": "contracts\\MergeRouter.sol:620"
+          },
+          {
+            "label": "WETH",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_address",
+            "contract": "MergeRouter",
+            "src": "contracts\\MergeRouter.sol:621"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "e1985404f06635b857ca18e7fea8a03d0c3f856a937cfdc777168a793346af6d": {
+      "address": "0x03af48f3259aE9Fe515513378577d9f5Faa0D7e7",
+      "txHash": "0x42b68319e883d49b2a2ba6389a1ab77ae6d8af43c94f55b1a275446ad4073908",
+      "layout": {
+        "storage": [
+          {
+            "label": "initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:21"
+          },
+          {
+            "label": "initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:26"
+          },
+          {
+            "label": "______gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:61"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "Ownable",
+            "src": "contracts\\SyrupBar.sol:47"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20",
+            "src": "contracts\\SyrupBar.sol:611"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20",
+            "src": "contracts\\SyrupBar.sol:613"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_uint256",
+            "contract": "ERC20",
+            "src": "contracts\\SyrupBar.sol:615"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20",
+            "src": "contracts\\SyrupBar.sol:617"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_string_storage",
+            "contract": "ERC20",
+            "src": "contracts\\SyrupBar.sol:618"
+          },
+          {
+            "label": "_decimals",
+            "offset": 0,
+            "slot": "57",
+            "type": "t_uint8",
+            "contract": "ERC20",
+            "src": "contracts\\SyrupBar.sol:619"
+          },
+          {
+            "label": "bull",
+            "offset": 1,
+            "slot": "57",
+            "type": "t_contract(BullToken)1954",
+            "contract": "SyrupBar",
+            "src": "contracts\\SyrupBar.sol:1214"
+          },
+          {
+            "label": "_delegates",
+            "offset": 0,
+            "slot": "58",
+            "type": "t_mapping(t_address,t_address)",
+            "contract": "SyrupBar",
+            "src": "contracts\\SyrupBar.sol:1238"
+          },
+          {
+            "label": "checkpoints",
+            "offset": 0,
+            "slot": "59",
+            "type": "t_mapping(t_address,t_mapping(t_uint32,t_struct(Checkpoint)2078_storage))",
+            "contract": "SyrupBar",
+            "src": "contracts\\SyrupBar.sol:1247"
+          },
+          {
+            "label": "numCheckpoints",
+            "offset": 0,
+            "slot": "60",
+            "type": "t_mapping(t_address,t_uint32)",
+            "contract": "SyrupBar",
+            "src": "contracts\\SyrupBar.sol:1250"
+          },
+          {
+            "label": "nonces",
+            "offset": 0,
+            "slot": "61",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "SyrupBar",
+            "src": "contracts\\SyrupBar.sol:1263"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(BullToken)1954": {
+            "label": "contract BullToken",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_uint32,t_struct(Checkpoint)2078_storage))": {
+            "label": "mapping(address => mapping(uint32 => struct SyrupBar.Checkpoint))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint32)": {
+            "label": "mapping(address => uint32)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint32,t_struct(Checkpoint)2078_storage)": {
+            "label": "mapping(uint32 => struct SyrupBar.Checkpoint)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Checkpoint)2078_storage": {
+            "label": "struct SyrupBar.Checkpoint",
+            "members": [
+              {
+                "label": "fromBlock",
+                "type": "t_uint32",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "votes",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint32": {
+            "label": "uint32",
+            "numberOfBytes": "4"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "d9fdb5c80536fae398a1c58f2cbba71f9602d16af806b0104f530d7479598191": {
+      "address": "0xc3b0A54958a33bfBE9937033e1A74E1557bcefa0",
+      "txHash": "0x58187514808d2915c108f43f2bbc89958147aae3eceff26104ec17cafe72b765",
+      "layout": {
+        "storage": [
+          {
+            "label": "initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:21"
+          },
+          {
+            "label": "initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:26"
+          },
+          {
+            "label": "______gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:61"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "Ownable",
+            "src": "contracts\\MasterChef v1.sol:644"
+          },
+          {
+            "label": "bull",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_contract(BullToken)2162",
+            "contract": "MasterChef",
+            "src": "contracts\\MasterChef v1.sol:1661"
+          },
+          {
+            "label": "syrup",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_contract(SyrupBar)2878",
+            "contract": "MasterChef",
+            "src": "contracts\\MasterChef v1.sol:1663"
+          },
+          {
+            "label": "devaddr",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_address",
+            "contract": "MasterChef",
+            "src": "contracts\\MasterChef v1.sol:1665"
+          },
+          {
+            "label": "bullPerBlock",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_uint256",
+            "contract": "MasterChef",
+            "src": "contracts\\MasterChef v1.sol:1667"
+          },
+          {
+            "label": "BONUS_MULTIPLIER",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_uint256",
+            "contract": "MasterChef",
+            "src": "contracts\\MasterChef v1.sol:1669"
+          },
+          {
+            "label": "migrator",
+            "offset": 0,
+            "slot": "57",
+            "type": "t_contract(IMigratorChef)2886",
+            "contract": "MasterChef",
+            "src": "contracts\\MasterChef v1.sol:1671"
+          },
+          {
+            "label": "poolInfo",
+            "offset": 0,
+            "slot": "58",
+            "type": "t_array(t_struct(PoolInfo)2908_storage)dyn_storage",
+            "contract": "MasterChef",
+            "src": "contracts\\MasterChef v1.sol:1674"
+          },
+          {
+            "label": "userInfo",
+            "offset": 0,
+            "slot": "59",
+            "type": "t_mapping(t_uint256,t_mapping(t_address,t_struct(UserInfo)2899_storage))",
+            "contract": "MasterChef",
+            "src": "contracts\\MasterChef v1.sol:1676"
+          },
+          {
+            "label": "totalAllocPoint",
+            "offset": 0,
+            "slot": "60",
+            "type": "t_uint256",
+            "contract": "MasterChef",
+            "src": "contracts\\MasterChef v1.sol:1678"
+          },
+          {
+            "label": "startBlock",
+            "offset": 0,
+            "slot": "61",
+            "type": "t_uint256",
+            "contract": "MasterChef",
+            "src": "contracts\\MasterChef v1.sol:1680"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_struct(PoolInfo)2908_storage)dyn_storage": {
+            "label": "struct MasterChef.PoolInfo[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(BullToken)2162": {
+            "label": "contract BullToken",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IERC20)443": {
+            "label": "contract IERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IMigratorChef)2886": {
+            "label": "contract IMigratorChef",
+            "numberOfBytes": "20"
+          },
+          "t_contract(SyrupBar)2878": {
+            "label": "contract SyrupBar",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_struct(UserInfo)2899_storage)": {
+            "label": "mapping(address => struct MasterChef.UserInfo)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_mapping(t_address,t_struct(UserInfo)2899_storage))": {
+            "label": "mapping(uint256 => mapping(address => struct MasterChef.UserInfo))",
+            "numberOfBytes": "32"
+          },
+          "t_struct(PoolInfo)2908_storage": {
+            "label": "struct MasterChef.PoolInfo",
+            "members": [
+              {
+                "label": "lpToken",
+                "type": "t_contract(IERC20)443",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "allocPoint",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "lastRewardBlock",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "accBullPerShare",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_struct(UserInfo)2899_storage": {
+            "label": "struct MasterChef.UserInfo",
+            "members": [
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "rewardDebt",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "1d7a5d382da4523d982fce770bd6a91890b58d6af324208cd25ea9df8fa5e1e1": {
+      "address": "0x543BD0eB8ED990bddc8488B2945Fcc26DD26aa45",
+      "txHash": "0x66c54da12bd5021d3e987cb999dafad2cf8fbbc226107cf1e9e24f4d5826299a",
+      "layout": {
+        "storage": [
+          {
+            "label": "initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:21"
+          },
+          {
+            "label": "initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:26"
+          },
+          {
+            "label": "______gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:61"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "Ownable",
+            "src": "contracts\\Dummy.sol:41"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20",
+            "src": "contracts\\Dummy.sol:554"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20",
+            "src": "contracts\\Dummy.sol:556"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_uint256",
+            "contract": "ERC20",
+            "src": "contracts\\Dummy.sol:558"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20",
+            "src": "contracts\\Dummy.sol:560"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_string_storage",
+            "contract": "ERC20",
+            "src": "contracts\\Dummy.sol:561"
+          },
+          {
+            "label": "_decimals",
+            "offset": 0,
+            "slot": "57",
+            "type": "t_uint8",
+            "contract": "ERC20",
+            "src": "contracts\\Dummy.sol:562"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "1025cb3eeb45ce6311d1e896d385d9f49ddf3ea1aad707c83e2ba6b17f4ad750": {
+      "address": "0xe4c3F345023F370e9C5D10e4c675D9DdeC608458",
+      "txHash": "0x4160f3172cb2e530fc4b9bf2c984bdbb5996f81debe1319341a116879543c31d",
+      "layout": {
+        "storage": [
+          {
+            "label": "initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:21"
+          },
+          {
+            "label": "initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:26"
+          },
+          {
+            "label": "______gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:61"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeSafe",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\GSN\\Context.sol:37"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "OwnableUpgradeSafe",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\Ownable.sol:18"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeSafe",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\Ownable.sol:78"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuard",
+            "src": "contracts\\MasterChef v2.sol:44"
+          },
+          {
+            "label": "MASTER_CHEF",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_contract(IMasterChef)917",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:148"
+          },
+          {
+            "label": "BULL",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_contract(IERC20)523",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:150"
+          },
+          {
+            "label": "burnAdmin",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_address",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:153"
+          },
+          {
+            "label": "boostContract",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_address",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:155"
+          },
+          {
+            "label": "poolInfo",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_array(t_struct(PoolInfo)948_storage)dyn_storage",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:158"
+          },
+          {
+            "label": "lpToken",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_array(t_contract(IERC20)523)dyn_storage",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:160"
+          },
+          {
+            "label": "userInfo",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_mapping(t_uint256,t_mapping(t_address,t_struct(UserInfo)937_storage))",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:163"
+          },
+          {
+            "label": "whiteList",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:165"
+          },
+          {
+            "label": "MASTER_PID",
+            "offset": 0,
+            "slot": "160",
+            "type": "t_uint256",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:168"
+          },
+          {
+            "label": "totalRegularAllocPoint",
+            "offset": 0,
+            "slot": "161",
+            "type": "t_uint256",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:170"
+          },
+          {
+            "label": "totalSpecialAllocPoint",
+            "offset": 0,
+            "slot": "162",
+            "type": "t_uint256",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:172"
+          },
+          {
+            "label": "bullRateToBurn",
+            "offset": 0,
+            "slot": "163",
+            "type": "t_uint256",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:185"
+          },
+          {
+            "label": "bullRateToRegularFarm",
+            "offset": 0,
+            "slot": "164",
+            "type": "t_uint256",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:187"
+          },
+          {
+            "label": "bullRateToSpecialFarm",
+            "offset": 0,
+            "slot": "165",
+            "type": "t_uint256",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:189"
+          },
+          {
+            "label": "lastBurnedBlock",
+            "offset": 0,
+            "slot": "166",
+            "type": "t_uint256",
+            "contract": "MasterChefV2",
+            "src": "contracts\\MasterChef v2.sol:191"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_contract(IERC20)523)dyn_storage": {
+            "label": "contract IERC20[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(PoolInfo)948_storage)dyn_storage": {
+            "label": "struct MasterChefV2.PoolInfo[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20)523": {
+            "label": "contract IERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IMasterChef)917": {
+            "label": "contract IMasterChef",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(UserInfo)937_storage)": {
+            "label": "mapping(address => struct MasterChefV2.UserInfo)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_mapping(t_address,t_struct(UserInfo)937_storage))": {
+            "label": "mapping(uint256 => mapping(address => struct MasterChefV2.UserInfo))",
+            "numberOfBytes": "32"
+          },
+          "t_struct(PoolInfo)948_storage": {
+            "label": "struct MasterChefV2.PoolInfo",
+            "members": [
+              {
+                "label": "accBullPerShare",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "lastRewardBlock",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "allocPoint",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "totalBoostedShare",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "isRegular",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(UserInfo)937_storage": {
+            "label": "struct MasterChefV2.UserInfo",
+            "members": [
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "rewardDebt",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "boostMultiplier",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "cc4f6d9a1a3dd560058188cb9c6f10cb8b5b66cf6f6475087b8ec5d994df7394": {
+      "address": "0x4358Aa11E04D2a722ED43E1fF1cFe14985B69e23",
+      "txHash": "0xc6c134533d930111917093aa5010a29c34af2d328bc9e5d5b523dcf07fc11bd2",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "contracts\\BullPool.sol:413",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "contracts\\BullPool.sol:418"
+          },
+          {
+            "label": "_owner",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "contracts\\BullPool.sol:571"
+          },
+          {
+            "label": "_paused",
+            "offset": 22,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Pausable",
+            "src": "contracts\\BullPool.sol:875"
+          },
+          {
+            "label": "token",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IERC20Upgradeable)77",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:994"
+          },
+          {
+            "label": "masterchefV2",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IMasterChefV2)1133",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:996"
+          },
+          {
+            "label": "boostContract",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_address",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:998"
+          },
+          {
+            "label": "VBull",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:999"
+          },
+          {
+            "label": "userInfo",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_mapping(t_address,t_struct(UserInfo)1189_storage)",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1001"
+          },
+          {
+            "label": "freePerformanceFeeUsers",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1002"
+          },
+          {
+            "label": "freeWithdrawFeeUsers",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1003"
+          },
+          {
+            "label": "freeOverdueFeeUsers",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1004"
+          },
+          {
+            "label": "totalShares",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1006"
+          },
+          {
+            "label": "admin",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_address",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1007"
+          },
+          {
+            "label": "treasury",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_address",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1008"
+          },
+          {
+            "label": "operator",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_address",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1009"
+          },
+          {
+            "label": "bullPoolPID",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1010"
+          },
+          {
+            "label": "totalBoostDebt",
+            "offset": 0,
+            "slot": "14",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1011"
+          },
+          {
+            "label": "totalLockedAmount",
+            "offset": 0,
+            "slot": "15",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1012"
+          },
+          {
+            "label": "UNLOCK_FREE_DURATION",
+            "offset": 0,
+            "slot": "16",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1025"
+          },
+          {
+            "label": "MAX_LOCK_DURATION",
+            "offset": 0,
+            "slot": "17",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1026"
+          },
+          {
+            "label": "DURATION_FACTOR",
+            "offset": 0,
+            "slot": "18",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1027"
+          },
+          {
+            "label": "DURATION_FACTOR_OVERDUE",
+            "offset": 0,
+            "slot": "19",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1028"
+          },
+          {
+            "label": "BOOST_WEIGHT",
+            "offset": 0,
+            "slot": "20",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1029"
+          },
+          {
+            "label": "performanceFee",
+            "offset": 0,
+            "slot": "21",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1031"
+          },
+          {
+            "label": "performanceFeeContract",
+            "offset": 0,
+            "slot": "22",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1032"
+          },
+          {
+            "label": "withdrawFee",
+            "offset": 0,
+            "slot": "23",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1033"
+          },
+          {
+            "label": "withdrawFeeContract",
+            "offset": 0,
+            "slot": "24",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1034"
+          },
+          {
+            "label": "overdueFee",
+            "offset": 0,
+            "slot": "25",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1035"
+          },
+          {
+            "label": "withdrawFeePeriod",
+            "offset": 0,
+            "slot": "26",
+            "type": "t_uint256",
+            "contract": "BullPool",
+            "src": "contracts\\BullPool.sol:1036"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Upgradeable)77": {
+            "label": "contract IERC20Upgradeable",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IMasterChefV2)1133": {
+            "label": "contract IMasterChefV2",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(UserInfo)1189_storage)": {
+            "label": "mapping(address => struct BullPool.UserInfo)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(UserInfo)1189_storage": {
+            "label": "struct BullPool.UserInfo",
+            "members": [
+              {
+                "label": "shares",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "lastDepositedTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "bullAtLastUserAction",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "lastUserActionTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "lockStartTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "lockEndTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "userBoostedShare",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "locked",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "lockedAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "8"
+              }
+            ],
+            "numberOfBytes": "288"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "cd01183eb5eba3216894a91ae24e8e85a5458484a220c98703f97741220e5fe5": {
+      "address": "0xD574573362c0b3bD589a9bc63a439aD5352aa3Ff",
+      "txHash": "0x0fc9a3e4647eaaa1f9fa1db64b6f211412c6441ae92deda67d50abb223030e80",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "contracts\\bullFlexiblePool.sol:412",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "contracts\\bullFlexiblePool.sol:417"
+          },
+          {
+            "label": "_owner",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "contracts\\bullFlexiblePool.sol:570"
+          },
+          {
+            "label": "_paused",
+            "offset": 22,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Pausable",
+            "src": "contracts\\bullFlexiblePool.sol:874"
+          },
+          {
+            "label": "token",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IERC20Upgradeable)3869",
+            "contract": "BullFlexiblePool",
+            "src": "contracts\\bullFlexiblePool.sol:989"
+          },
+          {
+            "label": "bullPool",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IBullPool)4953",
+            "contract": "BullFlexiblePool",
+            "src": "contracts\\bullFlexiblePool.sol:990"
+          },
+          {
+            "label": "userInfo",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_mapping(t_address,t_struct(UserInfo)4970_storage)",
+            "contract": "BullFlexiblePool",
+            "src": "contracts\\bullFlexiblePool.sol:992"
+          },
+          {
+            "label": "totalShares",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "BullFlexiblePool",
+            "src": "contracts\\bullFlexiblePool.sol:994"
+          },
+          {
+            "label": "admin",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_address",
+            "contract": "BullFlexiblePool",
+            "src": "contracts\\bullFlexiblePool.sol:995"
+          },
+          {
+            "label": "treasury",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_address",
+            "contract": "BullFlexiblePool",
+            "src": "contracts\\bullFlexiblePool.sol:996"
+          },
+          {
+            "label": "staking",
+            "offset": 20,
+            "slot": "6",
+            "type": "t_bool",
+            "contract": "BullFlexiblePool",
+            "src": "contracts\\bullFlexiblePool.sol:997"
+          },
+          {
+            "label": "withdrawAmountBooster",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_uint256",
+            "contract": "BullFlexiblePool",
+            "src": "contracts\\bullFlexiblePool.sol:1008"
+          },
+          {
+            "label": "performanceFee",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_uint256",
+            "contract": "BullFlexiblePool",
+            "src": "contracts\\bullFlexiblePool.sol:1009"
+          },
+          {
+            "label": "withdrawFee",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_uint256",
+            "contract": "BullFlexiblePool",
+            "src": "contracts\\bullFlexiblePool.sol:1010"
+          },
+          {
+            "label": "withdrawFeePeriod",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_uint256",
+            "contract": "BullFlexiblePool",
+            "src": "contracts\\bullFlexiblePool.sol:1011"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IBullPool)4953": {
+            "label": "contract IBullPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IERC20Upgradeable)3869": {
+            "label": "contract IERC20Upgradeable",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_struct(UserInfo)4970_storage)": {
+            "label": "mapping(address => struct BullFlexiblePool.UserInfo)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(UserInfo)4970_storage": {
+            "label": "struct BullFlexiblePool.UserInfo",
+            "members": [
+              {
+                "label": "shares",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "lastDepositedTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "bullAtLastUserAction",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "lastUserActionTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "31f0a3ec98fc13d1da463b87de64ac9a7f98238a7724e2aaaaca26330d3adc6d": {
+      "address": "0x389ed0B537E53F586973018ADbEff0cB28f88F4C",
+      "txHash": "0x22c476e4eaf39a0b0390d7b791221beff207872b3b379f4f302772d4abd9a0ed",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "contracts\\BoostContract.sol:326",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "contracts\\BoostContract.sol:331"
+          },
+          {
+            "label": "_owner",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Ownable",
+            "src": "contracts\\BoostContract.sol:469"
+          },
+          {
+            "label": "BULL",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "FarmBooster",
+            "src": "contracts\\BoostContract.sol:759"
+          },
+          {
+            "label": "BULL_POOL",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "FarmBooster",
+            "src": "contracts\\BoostContract.sol:761"
+          },
+          {
+            "label": "MASTER_CHEF",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_address",
+            "contract": "FarmBooster",
+            "src": "contracts\\BoostContract.sol:763"
+          },
+          {
+            "label": "BOOSTER_FACTORY",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "FarmBooster",
+            "src": "contracts\\BoostContract.sol:765"
+          },
+          {
+            "label": "MAX_BOOST_POOL",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "FarmBooster",
+            "src": "contracts\\BoostContract.sol:768"
+          },
+          {
+            "label": "cA",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_uint256",
+            "contract": "FarmBooster",
+            "src": "contracts\\BoostContract.sol:770"
+          },
+          {
+            "label": "cB",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_uint256",
+            "contract": "FarmBooster",
+            "src": "contracts\\BoostContract.sol:778"
+          },
+          {
+            "label": "whiteList",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_mapping(t_uint256,t_bool)",
+            "contract": "FarmBooster",
+            "src": "contracts\\BoostContract.sol:793"
+          },
+          {
+            "label": "proxyContract",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_mapping(t_address,t_address)",
+            "contract": "FarmBooster",
+            "src": "contracts\\BoostContract.sol:795"
+          },
+          {
+            "label": "userInfo",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_mapping(t_address,t_struct(ItMap)813_storage)",
+            "contract": "FarmBooster",
+            "src": "contracts\\BoostContract.sol:797"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(ItMap)813_storage)": {
+            "label": "mapping(address => struct ItMap)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(ItMap)813_storage": {
+            "label": "struct ItMap",
+            "members": [
+              {
+                "label": "data",
+                "type": "t_mapping(t_uint256,t_uint256)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "indexs",
+                "type": "t_mapping(t_uint256,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "keys",
+                "type": "t_array(t_uint256)dyn_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "size",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "c4eb41409959cd62469d9af3c57d62b6e033c330666ac88bb2f63a93f92750f2": {
+      "address": "0xC9DBEAc29C6BC3AC150Ae1cd01BC814eb790632E",
+      "txHash": "0xeed4fa78d9918257d5eaddb4e30cb90e4556a76af8527beb6fcf43745fe3b265",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "contracts\\BoosterFactory_origin.sol:326",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "contracts\\BoosterFactory_origin.sol:331"
+          },
+          {
+            "label": "Farm_Booster",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "FarmBoosterProxyFactory",
+            "src": "contracts\\BoosterFactory_origin.sol:1170"
+          },
+          {
+            "label": "masterchefV2",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "FarmBoosterProxyFactory",
+            "src": "contracts\\BoosterFactory_origin.sol:1171"
+          },
+          {
+            "label": "bullToken",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address",
+            "contract": "FarmBoosterProxyFactory",
+            "src": "contracts\\BoosterFactory_origin.sol:1172"
+          },
+          {
+            "label": "proxyContract",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_mapping(t_address,t_address)",
+            "contract": "FarmBoosterProxyFactory",
+            "src": "contracts\\BoosterFactory_origin.sol:1174"
+          },
+          {
+            "label": "proxyUser",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_address,t_address)",
+            "contract": "FarmBoosterProxyFactory",
+            "src": "contracts\\BoosterFactory_origin.sol:1176"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "5809ca1110482fb5037708c3414cb835c29ed870eaf46fb87d6f69efa81bd497": {
+      "address": "0xE88C644d21711291D4e03d96Cbe5B2fd8e3E1487",
+      "txHash": "0x1d6f68d35581e6a73b10a8c27c4d960b175dfcfe6fe06b7a1e104f8d0278373d",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "contracts\\SmartChefFactory.sol:324",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "contracts\\SmartChefFactory.sol:329"
+          },
+          {
+            "label": "_owner",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Ownable",
+            "src": "contracts\\SmartChefFactory.sol:565"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "e732f8b15d3e586ffc43e6eec0a6260bc8a05c5ddd42475afa0adf0a835d3808": {
+      "address": "0xFb67F4089b09A1E05F92dBe40B80fC554f5D072F",
+      "txHash": "0x38809effbefd1d048bd04fc6a80907a43bbbbf1dbef5cd328e50f683dc75ea57",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "contracts\\BullionFXZapV1.sol:325",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "contracts\\BullionFXZapV1.sol:330"
+          },
+          {
+            "label": "_owner",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "Ownable",
+            "src": "contracts\\BullionFXZapV1.sol:468"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuard",
+            "src": "contracts\\BullionFXZapV1.sol:773"
+          },
+          {
+            "label": "WETH",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IWETH)1567",
+            "contract": "BullionFXZapV1",
+            "src": "contracts\\BullionFXZapV1.sol:1191"
+          },
+          {
+            "label": "bullionfxRouter",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_contract(IBullionFXRouter02)1548",
+            "contract": "BullionFXZapV1",
+            "src": "contracts\\BullionFXZapV1.sol:1194"
+          },
+          {
+            "label": "maxZapReverseRatio",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "BullionFXZapV1",
+            "src": "contracts\\BullionFXZapV1.sol:1203"
+          },
+          {
+            "label": "bullionfxRouterAddress",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_address",
+            "contract": "BullionFXZapV1",
+            "src": "contracts\\BullionFXZapV1.sol:1206"
+          },
+          {
+            "label": "WETHAddress",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_address",
+            "contract": "BullionFXZapV1",
+            "src": "contracts\\BullionFXZapV1.sol:1209"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IBullionFXRouter02)1548": {
+            "label": "contract IBullionFXRouter02",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IWETH)1567": {
+            "label": "contract IWETH",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
