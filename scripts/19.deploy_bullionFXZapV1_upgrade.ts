@@ -2,7 +2,9 @@ import { ethers, upgrades } from "hardhat"
 
 async function main() {
 
-    const proxy = "0x32F7958ce6B059684c6A5fc8272bf8C26A77Dbcc"
+    const proxy = "0x27744CB65324584EF91c96A85Db9d1c60C1d69A2"
+    // goerli
+    // const proxy = "0x32F7958ce6B059684c6A5fc8272bf8C26A77Dbcc"
     const BullionFXZapV1 = await ethers.getContractFactory("BullionFXZapV1")
     console.log("Deploying BullionFXZapV1...")
     //weth, bullRouter, 50

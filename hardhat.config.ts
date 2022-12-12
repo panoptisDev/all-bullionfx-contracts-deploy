@@ -3,7 +3,7 @@ import '@nomiclabs/hardhat-etherscan'
 import '@nomiclabs/hardhat-solhint'
 import '@nomiclabs/hardhat-waffle'
 import '@nomiclabs/hardhat-ethers'
-import '@openzeppelin/hardhat-defender'
+// import '@openzeppelin/hardhat-defender'
 import '@openzeppelin/hardhat-upgrades'
 import '@tenderly/hardhat-tenderly'
 import '@typechain/hardhat'
@@ -30,15 +30,12 @@ const config: HardhatUserConfig = {
         clear: false,
         runOnCompile: false,
     },
-    defender: {
-        apiKey: process.env.DEFENDER_TEAM_API_KEY || "",
-        apiSecret: process.env.DEFENDER_TEAM_API_SECRET_KEY || "",
-    },
     defaultNetwork: 'hardhat',
     etherscan: {
         // Your API key for Etherscan
         // Obtain one at https://etherscan.io/
-        apiKey: process.env.ETHERSCAN_API_KEY,
+        // apiKey: process.env.ETHERSCAN_API_KEY,
+        apiKey: process.env.POLYGONSCAN_API_KEY,
     },
     gasReporter: {
         coinmarketcap: process.env.COINMARKETCAP_API_KEY,
@@ -174,7 +171,7 @@ const config: HardhatUserConfig = {
             tags: ['staging'],
         },
         matic: {
-            url: 'https://rpc-mainnet.maticvigil.com/',
+            url: 'https://polygon-rpc.com',
             accounts,
             chainId: 137,
             live: true,
@@ -383,10 +380,6 @@ const config: HardhatUserConfig = {
     tenderly: {
         project: process.env.TENDERLY_PROJECT || '',
         username: process.env.TENDERLY_USERNAME || '',
-    },
-    typechain: {
-        outDir: 'types',
-        target: 'ethers-v5',
     },
     watcher: {
         compile: {

@@ -4,7 +4,8 @@ async function main() {
 
     const Factory = await ethers.getContractFactory("BullFactory")
     console.log("Deploying Factory...")
-    const factory = await upgrades.deployProxy(Factory, ["0xD389104470281355Ca0Fb825F831B290875ba535"])
+    //feetosetter
+    const factory = await upgrades.deployProxy(Factory, ["0x57F07E8D28454BAEC743c5Af71a560Efb2b8F14c"])
 
     console.log(factory.address, " factory(proxy) address")
     console.log(await upgrades.erc1967.getImplementationAddress(factory.address), " getImplementationAddress")

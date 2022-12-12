@@ -2423,6 +2423,72 @@
           }
         }
       }
+    },
+    "b1dac3a0d9d2675e46b68e13ec46e984362505ea5abb2c35201e5b9ebaca5efe": {
+      "address": "0x6f76e9966812c435868B7B6893AF8c6586855B22",
+      "txHash": "0x861971b6446bb5edda527f1596f268b16f1b8f70366c2e4c828ab0ddf3fe4e6e",
+      "layout": {
+        "storage": [
+          {
+            "label": "initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:21"
+          },
+          {
+            "label": "initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:26"
+          },
+          {
+            "label": "______gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-ethereum-package\\contracts\\Initializable.sol:61"
+          },
+          {
+            "label": "factory",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "BullRouter",
+            "src": "contracts\\Router.sol:674"
+          },
+          {
+            "label": "WETH",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_address",
+            "contract": "BullRouter",
+            "src": "contracts\\Router.sol:675"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
     }
   }
 }

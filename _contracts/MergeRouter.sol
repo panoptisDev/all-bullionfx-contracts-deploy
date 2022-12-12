@@ -383,6 +383,10 @@ interface IBullPair {
     function sync() external;
 
     function initialize(address, address) external;
+
+    function liquidityFee() external view returns (uint256);
+
+    function treasuryFee() external view returns (uint256);
 }
 
 library BullLibrary {
@@ -456,14 +460,15 @@ library BullLibrary {
     function getAmountOut(
         uint256 amountIn,
         uint256 reserveIn,
-        uint256 reserveOut
+        uint256 reserveOut,
+        uint256 fee
     ) internal pure returns (uint256 amountOut) {
         require(amountIn > 0, "BullLibrary: INSUFFICIENT_INPUT_AMOUNT");
         require(
             reserveIn > 0 && reserveOut > 0,
             "BullLibrary: INSUFFICIENT_LIQUIDITY"
         );
-        uint256 amountInWithFee = amountIn.mul(9970);
+        uint256 amountInWithFee = amountIn.mul(10000 - fee);
         uint256 numerator = amountInWithFee.mul(reserveOut);
         uint256 denominator = reserveIn.mul(10000).add(amountInWithFee);
         amountOut = numerator / denominator;
@@ -473,7 +478,8 @@ library BullLibrary {
     function getAmountIn(
         uint256 amountOut,
         uint256 reserveIn,
-        uint256 reserveOut
+        uint256 reserveOut,
+        uint256 fee
     ) internal pure returns (uint256 amountIn) {
         require(amountOut > 0, "BullLibrary: INSUFFICIENT_OUTPUT_AMOUNT");
         require(
@@ -481,7 +487,7 @@ library BullLibrary {
             "BullLibrary: INSUFFICIENT_LIQUIDITY"
         );
         uint256 numerator = reserveIn.mul(amountOut).mul(10000);
-        uint256 denominator = reserveOut.sub(amountOut).mul(9970);
+        uint256 denominator = reserveOut.sub(amountOut).mul(10000 - fee);
         amountIn = (numerator / denominator).add(1);
     }
 
@@ -500,7 +506,15 @@ library BullLibrary {
                 path[i],
                 path[i + 1]
             );
-            amounts[i + 1] = getAmountOut(amounts[i], reserveIn, reserveOut);
+            address pair = IBullFactory(factory).getPair(path[i], path[i + 1]);
+            uint256 fee = IBullPair(pair).liquidityFee() +
+                IBullPair(pair).treasuryFee();
+            amounts[i + 1] = getAmountOut(
+                amounts[i],
+                reserveIn,
+                reserveOut,
+                fee
+            );
         }
     }
 
@@ -519,7 +533,15 @@ library BullLibrary {
                 path[i - 1],
                 path[i]
             );
-            amounts[i - 1] = getAmountIn(amounts[i], reserveIn, reserveOut);
+            address pair = IBullFactory(factory).getPair(path[i - 1], path[i]);
+            uint256 fee = IBullPair(pair).liquidityFee() +
+                IBullPair(pair).treasuryFee();
+            amounts[i - 1] = getAmountIn(
+                amounts[i],
+                reserveIn,
+                reserveOut,
+                fee
+            );
         }
     }
 }
@@ -604,6 +626,7 @@ contract MergeRouter is Initializable {
     using SafeMath for uint256;
 
     address public factory;
+    address public bullFactory;
     address public bullionfxRouter;
     address public sushiswapRouter;
     address public WETH;
@@ -614,12 +637,14 @@ contract MergeRouter is Initializable {
     }
 
     function initialize(
+        address _mergeFactory,
         address _bullionfxFactory,
         address _bullionfxRouter,
         address _sushiswapRouter,
         address _WETH
     ) public initializer {
-        factory = _bullionfxFactory;
+        factory = _mergeFactory;
+        bullFactory = _bullionfxFactory;
         bullionfxRouter = _bullionfxRouter;
         sushiswapRouter = _sushiswapRouter;
         WETH = _WETH;
@@ -850,7 +875,7 @@ contract MergeRouter is Initializable {
         view
         returns (bool isIn)
     {
-        address pair = IBullFactory(factory).getPair(token0, token1);
+        address pair = IBullFactory(bullFactory).getPair(token0, token1);
         if (pair == address(0x0) || IERC20(pair).totalSupply() == 0)
             return false;
         return true;
